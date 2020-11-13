@@ -1,6 +1,6 @@
 bookdown::gitbook:
   includes:
-    in_header: [helloworld.html]
+    in_header: [gather.html]
   css: style.css
   config:
     sharing: null

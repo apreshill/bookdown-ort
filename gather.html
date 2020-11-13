@@ -32,12 +32,11 @@ function gather() {
 
   console.log(encodedData)
 
-  location.href = `https://inspiring-franklin-725f76.netlify.app?data=${encodedData}`
+  location.href = `https://jonudell.info/h/HelloWorldAnnotated?data=${encodedData}`
 }
 
 var script = document.createElement('script')
 script.src='https://cdn.rawgit.com/judell/anchoring/master/dist/anchoring.js'
 document.head.appendChild(script)
 setTimeout(gather, 1000); // wait for anchoring support to load
-
 </script>
